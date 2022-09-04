@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "23112653841",
+    "project_id": "finadel-50ce9",
+    "storage_bucket": "finadel-50ce9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23112653841:android:0673c1e8793474f05665b0",
+        "android_client_info": {
+          "package_name": "com.example.finadel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "23112653841-rmgpkucggaa4tr63p09rnk931hhnm7ue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDW-OaSeuRWs7y3RaTzKAwGVCSbO9G5e4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "23112653841-rmgpkucggaa4tr63p09rnk931hhnm7ue.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
