@@ -9,7 +9,7 @@
 
 
 
-This repository contains the assets required to build the FINADEL METAVERSE  . 
+This repository contains the assets required to build the FINADEL APPLICATION  . 
 
 
 # An overview of the Metaverse
