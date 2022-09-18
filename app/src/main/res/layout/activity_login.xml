@@ -14,11 +14,11 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="189dp"
-        android:layout_height="147dp"
+        android:layout_width="228dp"
+        android:layout_height="125dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="148dp"
-        android:src="@drawable/log"
+        android:layout_marginEnd="100dp"
+        android:src="@drawable/vardilogo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
 
         android:layout_marginTop="8dp"
-        android:text="Welcome to Finadel!!"
+        android:text="Welcome to Vardiano!!"
         android:textColor="@color/black"
         android:textSize="36sp"
         android:textStyle="bold"

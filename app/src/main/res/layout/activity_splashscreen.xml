@@ -9,16 +9,16 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="229dp"
-        android:layout_height="274dp"
+        android:layout_width="299dp"
+        android:layout_height="259dp"
         android:foregroundGravity="center"
-        android:src="@drawable/log"
+        android:src="@drawable/vardilogo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.269"
+        app:layout_constraintHorizontal_bias="0.412"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.3" />
+        app:layout_constraintVertical_bias="0.321" />
 
     <ProgressBar
         android:id="@+id/progressBar"
