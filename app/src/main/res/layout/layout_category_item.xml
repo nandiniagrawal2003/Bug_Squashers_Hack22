@@ -28,11 +28,15 @@
             android:layout_height="match_parent"
             android:layout_marginHorizontal="5dp"
             android:orientation="vertical">
-        <ImageView
-            android:id="@+id/imageView6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            tools:srcCompat="@tools:sample/avatars" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="123dp"
+                android:layout_height="128dp"
+                android:src="@drawable/lptp"
+
+                tools:srcCompat="@drawable/lptp"
+            />
 
             <TextView
                 android:id="@+id/textView7"
@@ -71,11 +75,13 @@
                 android:layout_height="match_parent"
                 android:layout_marginHorizontal="5dp"
                 android:orientation="vertical">
+
                 <ImageView
                     android:id="@+id/imageView7"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    android:layout_height="128dp"
+                    android:src="@drawable/led"
+                    tools:srcCompat="@drawable/led" />
 
                 <TextView
                     android:id="@+id/textView8"
@@ -114,8 +120,10 @@
                 <ImageView
                     android:id="@+id/imageView8"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    android:layout_height="128dp"
+                    android:src="@drawable/tshirt"
+
+                    tools:srcCompat="@drawable/tshirt" />
 
                 <TextView
                     android:id="@+id/textView9"
@@ -154,8 +162,9 @@
                 <ImageView
                     android:id="@+id/imageView9"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    android:layout_height="128dp"
+                    android:src="@drawable/grcry"
+                    tools:srcCompat="@drawable/grcry" />
 
                 <TextView
                     android:id="@+id/textView10"

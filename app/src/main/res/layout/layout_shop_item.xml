@@ -6,6 +6,7 @@
     android:layout_height="match_parent">
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/crdv1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
@@ -25,7 +26,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 android:layout_margin="8dp"
 
-                tools:srcCompat="@tools:sample/avatars" />
+                tools:srcCompat="@drawable/gptaelc" />
 
             <TextView
                 android:id="@+id/textView10"
@@ -34,7 +35,7 @@
                 android:textStyle="bold"
                 android:textColor="@color/colorPrimary"
                 android:textSize="20sp"
-                android:text="TextView"
+                android:text="Gupta Electronics"
                 android:layout_marginTop="4dp"
                 android:layout_marginStart="12dp"
                 app:layout_constraintBottom_toBottomOf="@+id/imageView7"
@@ -46,7 +47,7 @@
                 android:id="@+id/textView11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView"
+                android:text="Electronics Shop"
                 android:textSize="16sp"
                 android:layout_marginTop="4dp"
                 android:textStyle="bold"
@@ -57,7 +58,7 @@
                 app:layout_constraintStart_toEndOf="@+id/imageView7"
                 app:layout_constraintTop_toTopOf="@+id/textView10" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button4"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -65,6 +66,7 @@
                 android:padding="4dp"
                 android:text="Shop"
                 android:textStyle="normal"
+                android:textColor="@color/colorPrimary"
 
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                 android:layout_marginHorizontal="4dp"
@@ -79,9 +81,9 @@
                 android:orientation="vertical"
                 app:layout_constraintGuide_begin="199dp" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/button5"
-                android:layout_width="201dp"
+                android:layout_width="0dp"
                 android:layout_height="45dp"
                 android:layout_marginHorizontal="4dp"
                 android:background="@color/colorPrimary"
@@ -89,6 +91,7 @@
                 android:padding="4dp"
                 android:gravity="center"
                 android:text="Metaverse"
+                android:textColor="@color/white"
 
                 android:textAllCaps="false"
                 android:textSize="18sp"
@@ -103,5 +106,106 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/crdv1">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:padding="4dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/img7"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_margin="8dp"
+
+                tools:srcCompat="@drawable/m" />
+
+            <TextView
+                android:id="@+id/text10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:text="Mini Groceries"
+                android:layout_marginTop="4dp"
+                android:layout_marginStart="12dp"
+                app:layout_constraintBottom_toBottomOf="@+id/img7"
+                app:layout_constraintStart_toEndOf="@+id/img7"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.225" />
+
+            <TextView
+                android:id="@+id/text11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grocery Shop"
+                android:textSize="16sp"
+                android:layout_marginTop="4dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginStart="12dp"
+
+                app:layout_constraintBottom_toBottomOf="@+id/img7"
+                app:layout_constraintStart_toEndOf="@+id/img7"
+                app:layout_constraintTop_toTopOf="@+id/text10" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:padding="4dp"
+                android:text="Shop"
+                android:textStyle="normal"
+                android:textColor="@color/colorPrimary"
+
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_marginHorizontal="4dp"
+                app:layout_constraintEnd_toStartOf="@+id/guideline3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img7" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_end="208dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button6"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_marginHorizontal="4dp"
+                android:background="@color/colorPrimary"
+                android:backgroundTint="@color/colorPrimary"
+                android:padding="4dp"
+                android:gravity="center"
+                android:text="Metaverse"
+                android:textColor="@color/white"
+
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textStyle="normal"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/guideline3"
+                app:layout_constraintTop_toBottomOf="@+id/img7"
+                app:layout_constraintVertical_bias="0.428" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
